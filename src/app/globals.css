@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+
+
+.content_title::before{
+  font-weight: 100;
+  display: block;
+  font-size: 10vw;
+    margin-bottom: 10vh;
+  text-align: center;
+}
