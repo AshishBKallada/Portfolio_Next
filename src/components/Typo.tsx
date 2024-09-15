@@ -190,26 +190,25 @@ function Typo() {
       </div>
 
 
-      <div className="flex flex-col w-screen relative px-8 py-6 mt-[160px]">
+      <div className="flex w-screen mx-auto items-center justify-center relative px-8 py-6 mt-[160px]">
         <h2 className="content_title text-[8vw] leading-[0.8] text-center grid gap-8">
           <span className="uppercase target">DREAM BIG</span>
           <span className="uppercase target">NEVER SETTLE</span>
           <span className="uppercase target mb-[100px]">NEVER QUIT</span>
         </h2>
+        <video
+      autoPlay
+      loop
+      muted
+      playsInline
+      className="w-[400px] h-[400px] object-cover"
+    >
+      <source src="/WhiteRoboFemaleAi.webm" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
       </div>
 
-      <div className="w-screen h-[400px] inset-0 z-0 relative mb-[100px]">
-  <video
-    autoPlay
-    loop
-    muted
-    playsInline
-    className="w-full h-full object-cover"
-  >
-    <source src="/RoboAi.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
-</div>
+      
 
 
       <div className='mx-auto flex flex-col gap-6'>
