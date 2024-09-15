@@ -198,11 +198,19 @@ function Typo() {
         </h2>
       </div>
 
-      <div className="flex flex-col w-screen relative px-8 py-6 mb-[70px]">
-        <p className="max-w-[1260px] mx-auto my-8 text-[1.25rem]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione libero velit, iure quo magnam, odit ipsam rem laborum odio, obcaecati reprehenderit repudiandae voluptatem a. Aliquid et a molestiae fuga officiis?
-        </p>
-      </div>
+      <div className="w-screen h-[400px] inset-0 z-0 relative mb-[100px]">
+  <video
+    autoPlay
+    loop
+    muted
+    playsInline
+    className="w-full h-full object-cover"
+  >
+    <source src="/RoboAi.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
+
 
       <div className='mx-auto flex flex-col gap-6'>
         <SparklesPreview />
@@ -280,6 +288,7 @@ function Typo() {
       </div>
       </div>
       <CardDemo />
+    
       <Carousel items={items2} />
       
       <TypewriterEffectDemo />
