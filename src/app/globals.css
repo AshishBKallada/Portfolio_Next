@@ -2,13 +2,62 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+@font-face{
+  src:url(fonts/Zolina-Bold.ttf);
+  font-family: z;
+}
+
+@font-face{
+  src:url(fonts/funittey-italic.otf);
+  font-family: l;
+}
+@font-face{
+  src:url(fonts/SFTransRoboticsExtended.ttf);
+  font-family: m;
+}
+body{
   margin:0;
   padding:0;
   box-sizing: border-box;
-  background-color: black;
   color: white;
+  background-color: black;
 }
+
+.zolina-bold{
+  font-family:z;
+  word-spacing: 10px;
+}
+.funitty{
+  font-family:l;
+}
+.robotica{
+  font-family:m;
+}
+
+.circle{
+  width: 150px;
+  height: 150px;
+  border-radius:50%;
+  background: linear-gradient(90deg, #0000ff, #8a2be2);   box-shadow: 0 0 0 45px rgb(33 33 33 );
+}
+
+.image{
+  animation : float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-25px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+
 
 
 .content_title::before{
