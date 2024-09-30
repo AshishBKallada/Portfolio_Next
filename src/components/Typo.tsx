@@ -8,7 +8,6 @@ import { SparklesPreview } from './ui/sparkles-preview';
 import { ThreeDCardDemo } from './ui/3dCardDemo';
 import Header from './ui/Header';
 import { BackgroundBeamsWithCollision } from './ui/beam-background';
-import MyComponent from './Test/Fly';
 
 
 function Typo() {
@@ -109,7 +108,6 @@ function Typo() {
 
   return (
     <div>
-      <MyComponent />
       <Header />
       <div className="flex flex-col md:flex-row items-center justify-center h-auto md:h-[500px] mx-6 md:mx-24 relative">
   <div className="relative">
